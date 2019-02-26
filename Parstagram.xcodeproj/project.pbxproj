@@ -10,6 +10,7 @@
 		5D32BC142051784343050E22 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C797F7072BF80C2CD0861D /* Pods_ParstagramUITests.framework */; };
 		8F07ED134D97BD2D9902C573 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE50A68CF0F93A45E52614 /* Pods_Parstagram.framework */; };
 		8FF724FF5BDD384EADFBB427 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9E46F5962022B436CD8DED /* Pods_ParstagramTests.framework */; };
+		A85B4A97222380D100132B94 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B4A96222380D100132B94 /* CommentCell.swift */; };
 		A870594A221245CA0071CB88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8705949221245CA0071CB88 /* LoginViewController.swift */; };
 		A870594C221245E30071CB88 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870594B221245E30071CB88 /* FeedViewController.swift */; };
 		A887A67F22123DA000E393F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887A67E22123DA000E393F2 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		5EF3B1DE4BBDB432E4430763 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		6A9E46F5962022B436CD8DED /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CAA99F48032963AA97DEDB /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A85B4A96222380D100132B94 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		A8705949221245CA0071CB88 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A870594B221245E30071CB88 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A887A67B22123DA000E393F2 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				A870594B221245E30071CB88 /* FeedViewController.swift */,
 				A8D79135221B69AA00897D71 /* CameraViewController.swift */,
 				A8D79137221B77A400897D71 /* PostCell.swift */,
+				A85B4A96222380D100132B94 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				A870594C221245E30071CB88 /* FeedViewController.swift in Sources */,
 				A887A67F22123DA000E393F2 /* AppDelegate.swift in Sources */,
 				A8D79138221B77A400897D71 /* PostCell.swift in Sources */,
+				A85B4A97222380D100132B94 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
